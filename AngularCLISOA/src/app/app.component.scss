@@ -1,0 +1,25 @@
+#myCats
+{
+  display:inline;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#myCats > li
+{
+  display: inline-block;
+  width: 40%;
+  height: 100%;
+}
+
+#shlag
+{
+  top:0;
+  width:100%;
+
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="petfinder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="header">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="version" type="xs:double"/>
+              <xs:element name="timestamp" type="xs:dateTime"/>
+              <xs:element name="status">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="code" type="xs:int"/>
+                    <xs:element name="message"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="breeds">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="breed" maxOccurs="unbounded" type="xs:string"/>
+            </xs:sequence>
+            <xs:attribute name="animal" type="xs:string"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

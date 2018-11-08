@@ -1,0 +1,6 @@
+<div id="gitan">
+  <p style="font-weight: bold;">Do you want some random facts ?<br>you can click on the text to reload it !</p>
+  <div (click)="clickListener(fact)" *ngFor="let fact of funfacts">
+    <p>{{ fact.text }}</p>
+  </div>
+</div>

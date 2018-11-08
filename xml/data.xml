@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<petfinder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.petfinder.com/schemas/0.9/petfinder.xsd">
+  <header>
+    <version>0.1</version>
+    <timestamp>2018-11-06T15:15:47Z</timestamp>
+    <status>
+      <code>100</code>
+      <message />
+    </status>
+  </header>
+  <breeds animal="cat">
+    <breed>Abyssinian</breed>
+    <breed>American Bobtail</breed>
+    <breed>American Curl</breed>
+    <breed>American Shorthair</breed>
+    <breed>American Wirehair</breed>
+    <breed>Applehead Siamese</breed>
+    <breed>Balinese</breed>
+    <breed>Bengal</breed>
+    <breed>Birman</breed>
+    <breed>Bombay</breed>
+    <breed>British Shorthair</breed>
+    <breed>Burmese</breed>
+    <breed>Burmilla</breed>
+    <breed>Calico</breed>
+    <breed>Canadian Hairless</breed>
+    <breed>Chartreux</breed>
+    <breed>Chausie</breed>
+    <breed>Chinchilla</breed>
+    <breed>Cornish Rex</breed>
+    <breed>Cymric</breed>
+    <breed>Devon Rex</breed>
+    <breed>Dilute Calico</breed>
+    <breed>Dilute Tortoiseshell</breed>
+    <breed>Domestic Long Hair</breed>
+    <breed>Domestic Medium Hair</breed>
+    <breed>Domestic Short Hair</breed>
+    <breed>Egyptian Mau</breed>
+    <breed>Exotic Shorthair</breed>
+    <breed>Extra-Toes Cat / Hemingway Polydactyl</breed>
+    <breed>Havana</breed>
+    <breed>Himalayan</breed>
+    <breed>Japanese Bobtail</breed>
+    <breed>Javanese</breed>
+    <breed>Korat</breed>
+    <breed>LaPerm</breed>
+    <breed>Maine Coon</breed>
+    <breed>Manx</breed>
+    <breed>Munchkin</breed>
+    <breed>Nebelung</breed>
+    <breed>Norwegian Forest Cat</breed>
+    <breed>Ocicat</breed>
+    <breed>Oriental Long Hair</breed>
+    <breed>Oriental Short Hair</breed>
+    <breed>Oriental Tabby</breed>
+    <breed>Persian</breed>
+    <breed>Pixiebob</breed>
+    <breed>Ragamuffin</breed>
+    <breed>Ragdoll</breed>
+    <breed>Russian Blue</breed>
+    <breed>Scottish Fold</breed>
+    <breed>Selkirk Rex</breed>
+    <breed>Siamese</breed>
+    <breed>Siberian</breed>
+    <breed>Silver</breed>
+    <breed>Singapura</breed>
+    <breed>Snowshoe</breed>
+    <breed>Somali</breed>
+    <breed>Sphynx / Hairless Cat</breed>
+    <breed>Tabby</breed>
+    <breed>Tiger</breed>
+    <breed>Tonkinese</breed>
+    <breed>Torbie</breed>
+    <breed>Tortoiseshell</breed>
+    <breed>Turkish Angora</breed>
+    <breed>Turkish Van</breed>
+    <breed>Tuxedo</breed>
+    <breed>York Chocolate</breed>
+  </breeds>
+</petfinder>

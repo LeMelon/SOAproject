@@ -1,0 +1,27 @@
+{
+  "/funfacts": {
+    "target": "http://cat-fact.herokuapp.com/facts/random?animal=cat&amount=10",
+    "secure": true,
+    "pathRewrite": {
+      "^/funfacts": ""
+    },
+    "changeOrigin": true
+  },
+  "/catfinder": {
+    "target": "http://api.petfinder.com/breed.list?key=b49759792f906e54d2a59142d76c901e&id=43202596&animal=cat",
+    "secure": true,
+    "pathRewrite": {
+      "^/catfinder": ""
+    },
+    "changeOrigin": true
+  },
+  "/catimage": {
+    "target": "http://api.thecatapi.com/v1/images/search?size=med&mime_types=jpg,png&format=json&order=RANDOM&page=0&limit=3",
+    "secure": true,
+    "pathRewrite": {
+      "^/catimage": ""
+    },
+    "changeOrigin": true
+  }
+}
+

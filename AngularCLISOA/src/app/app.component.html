@@ -1,0 +1,20 @@
+
+
+<!--The content below is only a placeholder and can be replaced.-->
+<div id="shlag">
+  <div style="text-align:center">
+    <h1>
+      Welcome to my SOA Project, i hope you like cats !
+    </h1>
+  </div>
+  <ul id="myCats" *ngFor="let cat of catimg">
+    <li>
+      <img src="{{cat.url}}">
+    </li>
+  </ul>
+</div>
+
+<app-funfacts></app-funfacts>
+<app-petfinder></app-petfinder>
+
+<router-outlet></router-outlet>
